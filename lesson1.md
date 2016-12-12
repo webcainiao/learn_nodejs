@@ -18,7 +18,7 @@ username ALL=(ALL) NOPASSWD:ALL
 \$ sudo -k //清空安全时间？
 
 
-##linux改变yum源为阿里云，提高下载，安装速度
+##linux改变yum源为阿里云，提高下载，安装速度<http://mirrors.aliyun.com/help/centos>
 ```
 1. 备份 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 2. 下载新的CentOS-Base.repo 到/etc/yum.repos.d/
